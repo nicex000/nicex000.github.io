@@ -2,17 +2,18 @@ var CircularProgressBar = (function () {
   'use strict';
 
   const defaultOptions = {
-    colorSlice: '#00a1ff',
+    colorSlice: '#ab5dd4',
+    colorCircle: '#f1f1f1',
     fontColor: '#000',
     fontSize: '1.6rem',
     fontWeight: 400,
     lineargradient: false,
-    number: true,
+    number: false,
     round: false,
     fill: 'none',
     unit: '%',
     rotation: -90,
-    size: 200,
+    size: 70,
     stroke: 10
   };
 
