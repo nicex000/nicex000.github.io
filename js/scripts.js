@@ -138,6 +138,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // get all progress bar
   const elements = [].slice.call(document.querySelectorAll('.pie'));
   // call to function
+  if (elements.length == 0) return;
   const circle = new CircularProgressBar('pie');
 
   // https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
