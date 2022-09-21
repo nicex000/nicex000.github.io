@@ -18,7 +18,7 @@
 	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>Shimakaze Bot</title>
+    <title>Memory Manager</title>
     
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -98,7 +98,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1">
-                    <h1>Shimakaze Bot</h1>
+                    <h1>Memory Manager</h1>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -109,51 +109,39 @@
     <div class="ex-basic-1 pt-4">
         <div class="container">
             <div class="row">
-                <img class="img-fluid" src="images/shima.png" alt="">
+                <img class="img-fluid" src="images/memmanager.png" alt="">
+
 
                 <div class="col-xl-10 offset-xl-1">
                     <br>
 
                     <h5>Name</h5>
-                    <p>Shimakaze Bot</p>
+                    <p>Memory Manager</p>
 
                     <br>
 
                     <div class="row">
                         <div class="col-md-2">
                             <h5>Language</h5>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" alt="C#" width = "50" height="50"/>
-                        </div>
-                        <div class="col-md-2">
-                            <h5>Hosted on</h5>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" alt="Docker" width = "50" height="50" />
-                        </div>
-                        <div class="col-md-2">
-                            <h5>Uses</h5>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg" alt="PostgreSQL" width = "50" height="50" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" alt="C++" width = "50" height="50"/>
                         </div>
                     </div>
                     <br>
                     <div class="row">
                         <div class="col-md-2">
-                            <h5>Team Size</h5><strong style="padding-left:25px;">3</strong>
-                            <div class="pie" data-pie='{ "percent": 25}'></div>
+                            <h5>Time Frame</h5><strong style="padding-left:10px;">2 months</strong>
+                            <div class="pie" data-pie='{ "percent": 33}'></div>
                         </div>
                     </div>
                     <br>
                     <h5>Info</h5>
-                    Shimakaze Bot is a Discord bot I made with contributions from some of my friends in our free time.
-                    It uses the DSharpPlus wrapper for the Discord API.
-                    <br><br>    
-                    <h5>Details</h5>
-                    Main functionality:
-                    <ul>
-                        <li>Music streaming in voice channels (using Lavalink)</li>
-                        <li>Multiple text commands that go anywhere from rolling a dice to setting a reminder/event</li>
-                        <li>Server management and customization (like giving users a streaming role when they're live on twitch)</li>
-                    </ul>
+                    Part of a series of C++ assignments, this one was to make a small object allocator, with an additional STL compatible allocator.
+                    <br> The implementation follows Alexandrescu's small object allocator.
+                    <br> I also attempted to make a generic allocator.
+                    <br> The repo also includes a testing project.
+                    <br><br>
                     <h5>Links</h5>
-                    <a href="https://github.com/nicex000/ShimakazeBot" target="_blank"><strong>GitHub</strong></a><br>
+                    <a href="https://github.com/nicex000/MemoryManager" target="_blank"><strong>GitHub</strong></a><br> 
 
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -172,59 +160,6 @@
         </div> <!-- end of container -->
     </div> <!-- end of ex-basic-1 -->
     <!-- end of basic -->
-
-    <!-- gallery-->
-    <div class="container basic-4">
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="text-container">
-                <div class="image-container">
-                    <a href="images/discord logo.jpg">
-                        <img class="img-fluid" src="images/discord logo.jpg" alt="">
-                    </a>
-                </div> <!-- end of image-container -->
-                <p></p>
-            </div> <!-- end of text-container -->
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <div class="text-container">
-                <div class="image-container">
-                    <a href="images/shimaBot1.png">
-                        <img class="img-fluid" src="images/shimaBot1.png" alt="">
-                    </a>
-                </div> <!-- end of image-container -->
-                <p>An attribute that can be attached to a command (a function), and needs to pass the coded requirements to run the command
-                    <br>
-                    <a href="https://github.com/nicex000/ShimakazeBot/blob/master/Shimakaze-chan/Attributes/RequireServerOwnerAttribute.cs" target="_blank"><strong>File on GitHub</strong></a>
-                </p>
-            </div> <!-- end of text-container -->
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <div class="text-container">
-                <div class="image-container">
-                    <a href="images/shimaBot2.png">
-                        <img class="img-fluid" src="images/shimaBot2.png" alt="">
-                    </a>
-                </div> <!-- end of image-container -->
-                <p>Allows someone (that meets the attribute requirements) to change the prefix on the server, the alternative prefix will then get stored in a database table
-                    <br>
-                    <a href="https://github.com/nicex000/ShimakazeBot/blob/c9f828b3a5f4f0d0543620fec0c1af2e46990fab/Shimakaze-chan/Commands/Cusomization/CustomizationCommands.cs#L94" target="_blank"><strong>File on GitHub</strong></a>
-                </p>
-            </div> <!-- end of text-container -->
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <div class="text-container">
-                <div class="image-container">
-                    <a href="images/shima.png">
-                        <img class="img-fluid" src="images/shima.png" alt="">
-                    </a>
-                </div> <!-- end of image-container -->
-                <p></p>
-            </div> <!-- end of text-container -->
-        </div> <!-- end of col -->
-    </div>
-    </div>
-    <!-- end of gallery-->
 
     <!-- Footer -->
     <div class="footer bg-gray">
